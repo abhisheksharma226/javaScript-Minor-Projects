@@ -24,11 +24,11 @@ if(random < 0.33){
 }
 
 if(random < 0.33){
-    first = "Bros";
+    third = "Bros";
 }else if(random < 0.66 && random >= 0.33){
-    first = "Limited";
+    third = "Limited";
 }else{
-    first = "Hub";
+    third = "Hub";
 }
 
 console.log(`${first} ${second} ${third}`);
